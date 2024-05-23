@@ -6,7 +6,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -25,7 +25,7 @@ const Footer = () => {
           <SocialIcons href='https://github.com/FelipeAlcantaraVieira'>
             <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href='www.linkedin.com/in/felipe-a-vieira'>
+          <SocialIcons href='https://www.linkedin.com/in/felipe-a-vieira/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
         </SocialContainer>

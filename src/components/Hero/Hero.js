@@ -8,13 +8,13 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hello There! <br />
+        I'm Felipe.
       </SectionTitle>
       <SectionText>
-        The purpose is to showcase my skills
+        I'm a Developer based in Brazil with experience in Full-Stack Development.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>
+      <Button onClick={() => window.location = 'https://github.com/FelipeAlcantaraVieira'}>
         Learn More
       </Button>
     </LeftSection>

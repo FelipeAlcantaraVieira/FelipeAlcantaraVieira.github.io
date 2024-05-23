@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href=';'>
+      <Link href='#'>
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}} href="">
           <DiCssdeck size="3rem"/> <Span>PortFolio</Span>
         </a>
@@ -26,8 +26,8 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href='#about'>
-          <NavLink>About</NavLink>
+        <Link href='#contact'>
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>
@@ -35,7 +35,7 @@ const Header = () =>  (
       <SocialIcons href='https://github.com/FelipeAlcantaraVieira'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='www.linkedin.com/in/felipe-a-vieira'>
+      <SocialIcons href='https://www.linkedin.com/in/felipe-a-vieira/'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
     </Div3>
